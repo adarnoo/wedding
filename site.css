@@ -8,6 +8,7 @@ body {
   color: black;
   background-color: black;
   background-color: #c199ff;
+  overflow: hidden;
 }
 
 @font-face {
