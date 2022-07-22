@@ -56,6 +56,8 @@ img {
   transform: translateY(-50%);
   cursor: default;
   font-size: 70px;
+  animation-name: launching-screen;
+  animation-duration: 1s;
 }
 
 .we-text-italic {
@@ -64,6 +66,7 @@ img {
   text-align: center;
   font-weight: bolder;
   animation-name: fade;
+  animation-delay: 1.2s;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
@@ -88,6 +91,18 @@ img {
   }
   75% {
     opacity: 0;
+  }
+}
+
+@keyframes launching-screen {
+  0% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100px% {
+    opacity: 1;
   }
 }
 
